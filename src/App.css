@@ -1,0 +1,83 @@
+.app-title {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.container {
+  width: 80%;
+  height: 500px;
+  border-radius: 25px;
+  background-color: #003049;
+  margin-top: 2%;
+  margin-left: 10%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-busca {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-busca input {
+  padding: 20px 10px;
+  border-radius: 25px;
+  width: 260px;
+  background-color: #080510;
+  color: #FFF;
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.container-busca button {
+  padding: 15px 10px;
+  border-radius: 25px;
+  width: 150px;
+  background-color: #C1121F;
+  color: #FFF;
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.container-busca button:active {
+  background-color: #780000;
+}
+
+.container-usuario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  background-color: #080510;
+  height: 80%;
+  width: 600px;
+  margin: 50px 0;
+  border-radius: 25px;
+}
+
+.container-usuario h1 {
+  margin-top: 16px;
+}
+
+.container-usuario p {
+  margin-top: 8px;
+}
+
+.container-usuario img {
+  border-radius: 300px;
+  border: 3px solid white;
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
