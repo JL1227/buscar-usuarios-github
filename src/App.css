@@ -5,10 +5,10 @@
 
 .container {
   width: 80%;
-  height: 500px;
+  height: 600px;
   border-radius: 25px;
   background-color: #003049;
-  margin-top: 2%;
+  margin-top: 30px;
   margin-left: 10%;
 
   display: flex;
@@ -22,10 +22,10 @@
 }
 
 .container-busca input {
-  padding: 20px 10px;
-  border-radius: 25px;
+  padding: 15px 10px;
+  border-radius: 15px;
   width: 260px;
-  background-color: #080510;
+  background-color: #0D1B2A;
   color: #FFF;
   text-align: center;
   display: block;
@@ -60,9 +60,9 @@
   text-align: center;
 
   background-color: #080510;
-  height: 80%;
+  height: 90%;
   width: 600px;
-  margin: 50px 0;
+  margin: 30px 0;
   border-radius: 25px;
 }
 
@@ -70,8 +70,8 @@
   margin-top: 16px;
 }
 
-.container-usuario p {
-  margin-top: 8px;
+.container-usuario .bio-usuário {
+  margin-top: 16px;
 }
 
 .container-usuario img {
@@ -80,4 +80,22 @@
   width: 200px;
   height: 200px;
   align-self: center;
+}
+
+.followers-following {
+  margin-top: 16px;
+}
+
+.companhia-usuário,
+.repositório-usuário,
+.localização-usuário {
+  margin-top: 4px;
+}
+
+.repositório-usuário {
+  margin-top: 24px;
+}
+
+.repositório-usuário a {
+  text-decoration: none;
 }
